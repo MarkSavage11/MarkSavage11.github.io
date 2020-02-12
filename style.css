@@ -2,33 +2,36 @@ body {
 	height: 100%;
 	margin: 0;
 	font-family: "Works-Sans", sans-serif;
-	background-color: #fbf7f5;
 }
 
 .banner {
-	background-image: url("");
-	background-color: #2E3532;
-	height: 25%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+    height: 50%;
+    background-size: cover;
+    position: static;
+    min-width: 100%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+	border-bottom-style: solid;
+	border-bottom-color: #F2F196
 }
 
 .title-text {
 	text-align: left;
 	position: absolute;
+	display: inline-block;
 	left: 13%;
-	color: #b1b1b1;
+	color: #05ABEB;
 }
 
 .title-text h1{
-	font-family: 'Martel Sans', sans-serif;
-	font-size:3.5em;
-	font-weight: lighter;
-	margin-bottom: -40;
-	letter-spacing: 2px; 
-	
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3.5em;
+    font-weight: lighter;
+    margin-bottom: -40px;
+    letter-spacing: 2px;
+	color: #F50097
 }
 
 .title-text h2{
@@ -44,11 +47,12 @@ body {
 }
 
 .logo img{
-	width: 130px;
-	display: block;
-	padding-top: 25px;
-	margin: auto;
-
+    max-width: 130px;
+    padding-top: 25px;
+	padding-left: 50%;
+	padding-right: 50%;
+    margin: auto;
+	align: middle;
 }
 
 a {
@@ -60,26 +64,28 @@ nav ul a{
 	font-size: 1rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #C1C1C1;
+	color: #05ABEB;
 	text-decoration: none;
-
+	padding: 20px;
 }
 nav ul a:hover {
-	color: lightgray;
+	border-top-style: solid;
+	border-top-color: #F2F196
+}
+
+nav li.selected a {
+	color: #f50097;
 }
 
 nav {
-	padding-right : 200;
+	padding-right : 13%;
 
 }
 nav ul {
 	float: right;
-	width: 20%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: -15px;
 	list-style-type: none;
-
 }
 
 nav li {
@@ -89,7 +95,7 @@ nav li {
 }
 
 .game{
-	margin: 50px 225px;
+	margin: 50px 10%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -100,12 +106,12 @@ nav li {
 }
 
 .game-text{
-	width: 50%;
+	max-width: 50%;
 	padding-left: 10%;
 }
 
 .game-text .title{
-	font-size: 25px;
+	font-size: 20pt;
 	margin-bottom: -5px;
 	font-family: 'Work-Sans', sans-serif;
 }
@@ -115,8 +121,8 @@ nav li {
 }
 
 hr{
-	width: 80%;
-	border-top: 1px solid black;
+	width: 85%;
+	border-top: 2px solid #F2F196;
 }
 
 /*About Me Styling*/
@@ -162,4 +168,3 @@ hr{
 .contact h4{
 
 }*/
-

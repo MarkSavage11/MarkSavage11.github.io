@@ -127,7 +127,7 @@ hr{
 
 /*About Me Styling*/
 .about-me {
-	margin: 50px 225px;
+	margin: 50px 10%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -138,7 +138,7 @@ hr{
 }
 
 .about-me .description{
-	width: 50%;
+	max-width: 50%;
 	padding-left: 5%;
 }
 
@@ -150,6 +150,37 @@ hr{
 .about-me p{
 	line-height: 1.5;
 }
+
+@media only screen and (max-width: 1000px) {
+	.title-text { 
+		position: static;
+		text-align: center;
+		align-items: center;
+		display: inline;
+		left: auto;
+	}
+	.logo img {display: none;}
+	nav {padding:0;}
+	nav ul {
+		float:none;
+		justify-content: center;
+
+	}
+	.game-text, .about-me .description {max-width: 100%; text-align: center;}
+	.game, .about-me { 
+		display: inherit;
+		margin-left:auto;
+		justify-content: center;
+	}
+	.content, .about-me img {
+		margin-left: 10%;
+		margin-right: 10%;
+		float: center;
+		max-width: 80%;
+		width: 80%;
+	}
+}
+
 
 /*Contact Styling*/
 

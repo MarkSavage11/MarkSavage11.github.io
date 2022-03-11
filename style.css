@@ -160,18 +160,20 @@ hr{
 /*About Me Styling*/
 .about-me {
 	margin: 50px 10%;
-	display: flex;
-	justify-content: space-between;
+	display: block;
 	align-items: center;
 }
 
 .about-me img{
-	max-width: 50%;
+	max-width: 400px;
+	border-radius: 50%;
 }
 
-.about-me .description{
-	max-width: 50%;
-	padding-left: 5%;
+.about-me .bio{
+	width: 55%;
+	padding: 10px 50px 30px;
+	margin:auto;
+	justify-content: space-around;
 }
 
 .about-me .description h3{
@@ -181,6 +183,18 @@ hr{
 
 .about-me p{
 	line-height: 1.5;
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me .links {
+	text-align: center;
+	padding: 10px;
+}
+
+.links img{
+	border-radius: 0%;
 }
 
 @media only screen and (max-width: 1000px) {

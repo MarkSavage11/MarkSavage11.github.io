@@ -131,13 +131,21 @@ a.moreInfo {
 }
 
 a.moreInfo:hover {
-	background-color: blue;
+	background-color: #08415C;
 }
 
 a.storeLink{
 	display: inline-block;
 	border-radius: 3px;
-	padding: 0px 30px;
+	padding: 0px 0px 0px 15px;
+
+}
+
+img.storeLink{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	object-fit: contain;
 }
 
 .links {

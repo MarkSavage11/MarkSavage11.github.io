@@ -120,6 +120,30 @@ nav li {
 	line-height: 1.5;
 }
 
+a.moreInfo {
+	font-size: 0.8rem;
+	background-color: #05ABEB;
+	color: white;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 8px 30px;
+	text-decoration: none;
+}
+
+a.moreInfo:hover {
+	background-color: blue;
+}
+
+a.storeLink{
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0px 30px;
+}
+
+.links {
+	white-space: nowrap;
+}
+
 hr{
 	width: 85%;
 	border-top: 2px solid #F2F196;

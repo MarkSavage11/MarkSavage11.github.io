@@ -1,3 +1,7 @@
+/**{
+	background-color: #FFD9DA;
+}*/
+
 body {
 	height: 100%;
 	margin: 0;
@@ -14,7 +18,7 @@ body {
     box-sizing: content-box;
     display: inline-block;
 	border-bottom-style: solid;
-	border-bottom-color: #F2F196
+	border-bottom-color: #F7D850
 }
 
 .title-text {
@@ -69,12 +73,13 @@ nav ul a{
 	padding: 20px;
 }
 nav ul a:hover {
-	border-top-style: solid;
-	border-top-color: #F2F196
+	/*border-top-style: solid;*/
+	color:#08415C;
+	border-top-color: #F7D850
 }
 
 nav li.selected a {
-	color: #f50097;
+	color: #F50097;
 }
 
 nav {
@@ -154,7 +159,7 @@ img.storeLink{
 
 hr{
 	width: 85%;
-	border-top: 2px solid #F2F196;
+	border-top: 3px solid #F7D850;
 }
 
 /*About Me Styling*/

@@ -219,7 +219,7 @@ hr{
 
 	}
 	.game-text, .about-me .description {max-width: 100%; text-align: center;}
-	.game, .about-me { 
+	.game, .about-me, .bio { 
 		display: inherit;
 		margin-left:auto;
 		justify-content: center;

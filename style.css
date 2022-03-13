@@ -30,18 +30,18 @@ body {
 }
 
 .title-text h1{
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 3.5em;
     font-weight: lighter;
-    margin-bottom: -40px;
-    letter-spacing: 2px;
-	color: #F50097
+    margin-bottom: -25px;
+    margin-left: -4px;
+    color: #F50097
 }
 
 .title-text h2{
-	font-family: 'Martel Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
-	font-size: 1.25em;
+	font-size: 1.32em;
 }
 
 .logo {
@@ -117,8 +117,9 @@ nav li {
 
 .game-text .title{
 	font-size: 20pt;
+	letter-spacing: .1rem;
 	margin-bottom: -5px;
-	font-family: 'Work-Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 	color: #F50097;
 }
 
